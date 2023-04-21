@@ -24,3 +24,11 @@ describe "my_transpose" do
         expect(my_transpose(arr)).to eq([[0, 3, 6], [1, 4, 7], [2, 5, 8]])
     end
 end
+
+describe "stock_picker" do
+    it "return a pair of indices with the maximum difference within an array" do
+        arr = [4, 8, 6, 10, 5, 2]
+        expect(stock_picker(arr)).to eq([0, 3])
+    end
+end
+
