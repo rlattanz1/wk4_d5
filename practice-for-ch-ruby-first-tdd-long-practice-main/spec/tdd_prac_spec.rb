@@ -32,3 +32,25 @@ describe "stock_picker" do
     end
 end
 
+describe HanoiTowers do
+    subject(:towers) {HanoiTowers.new(4)}
+    describe "initialized towers correctly" do
+        it "it will not take in any arguments" do
+            expect(towers.towers).to eq([[4, 3, 2, 1], [], []])
+        end
+        it "it will return a 2D array with 3 sub arrays" do
+            expect(towers.towers).to eq([[4, 3, 2, 1], [], []])
+        end
+        it "it will populate a single sub array in descending order" do
+            expect(towers.towers).to eq([[4, 3, 2, 1], [], []])
+        end
+    end
+
+    describe "" do
+
+    end
+
+    describe "" do
+
+    end
+end

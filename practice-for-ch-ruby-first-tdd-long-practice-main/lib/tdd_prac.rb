@@ -31,3 +31,14 @@ def stock_picker(arr)
     max_key = differences.keys.max
     differences[max_key]
 end
+
+class HanoiTowers
+
+    attr_accessor :towers
+    def initialize(num=4)
+
+        @towers = Array.new(3) {Array.new}
+        @towers[0] = (1..num).to_a.reverse
+    end
+
+end
